@@ -1,0 +1,2001 @@
+AppName,TCID,STATUS,EXEDATE,ENV|CODE|DATA|REQ
+OnePlan,1,Fail,07.24.19,"STG2.0|for i in Age|i={name,age}|looping"
+OnePlan,2,Fail,09.24.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+OnePlan,3,Fail,04.17.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+OnePlan,4,Pass,04.18.19,
+OnePlan,5,Pass,07.21.19,
+OnePlan,6,Pass,09.01.19,
+OnePlan,7,Fail,08.24.19,STG2.0|while var >! 0:  |var=balance|validation
+OnePlan,8,Pass,04.24.19,
+OnePlan,9,Pass,09.29.19,
+OnePlan,10,Pass,05.22.19,
+OnePlan,11,Pass,05.10.19,
+OnePlan,12,Fail,08.18.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+OnePlan,13,Fail,06.02.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+OnePlan,14,Pass,06.27.19,
+OnePlan,15,Pass,06.14.19,
+OnePlan,16,Fail,06.17.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+OnePlan,17,Pass,08.05.19,
+OnePlan,18,Fail,04.26.19,STG2.0| if i>5 |i=6 |decision control
+OnePlan,19,Pass,04.16.19,
+OnePlan,20,Pass,05.11.19,
+OnePlan,21,Pass,09.23.19,
+OnePlan,22,Pass,08.23.19,
+OnePlan,23,Fail,05.31.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+OnePlan,24,Fail,08.29.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+OnePlan,25,Fail,08.08.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+OnePlan,26,Pass,09.27.19,
+OnePlan,27,Pass,05.19.19,
+OnePlan,28,Fail,04.23.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+OnePlan,29,Fail,06.01.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+OnePlan,30,Fail,09.17.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+OnePlan,31,Pass,07.21.19,
+OnePlan,32,Pass,05.30.19,
+OnePlan,33,Fail,08.10.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+OnePlan,34,Pass,05.13.19,
+OnePlan,35,Fail,05.26.19,DEV2.0|print(a)|a=transaction.address|retrive data
+OnePlan,36,Fail,04.15.19,STG2.0| if i>5 |i=6 |decision control
+OnePlan,37,Pass,08.21.19,
+OnePlan,38,Pass,08.01.19,
+OnePlan,39,Pass,06.30.19,
+OnePlan,40,Fail,06.03.19,UAT2.0|if i>z|i=z|decision control
+OnePlan,41,Fail,08.18.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+OnePlan,42,Pass,09.06.19,
+OnePlan,43,Pass,04.04.19,
+OnePlan,44,Pass,09.04.19,
+OnePlan,45,Fail,06.01.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+OnePlan,46,Fail,09.26.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+OnePlan,47,Fail,08.25.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+OnePlan,48,Pass,07.27.19,
+OnePlan,49,Pass,04.03.19,
+OnePlan,50,Pass,06.23.19,
+OnePlan,51,Fail,07.06.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+OnePlan,52,Fail,05.20.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+OnePlan,53,Fail,08.06.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+OnePlan,54,Fail,04.16.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+OnePlan,55,Fail,08.12.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+OnePlan,56,Fail,04.13.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+OnePlan,57,Pass,08.11.19,
+OnePlan,58,Pass,06.07.19,
+OnePlan,59,Pass,09.09.19,
+OnePlan,60,Fail,07.27.19,STG2.0|print(bal)|bal=np.nan|printing
+OnePlan,61,Fail,04.09.19,"STG2.0|for i in Age|i={name,age}|looping"
+OnePlan,62,Pass,09.04.19,
+OnePlan,63,Pass,09.08.19,
+OnePlan,64,Pass,05.09.19,
+OnePlan,65,Pass,08.24.19,
+OnePlan,66,Pass,05.04.19,
+OnePlan,67,Pass,04.03.19,
+OnePlan,68,Fail,04.18.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+OnePlan,69,Fail,08.26.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+OnePlan,70,Fail,09.22.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+OnePlan,71,Pass,04.23.19,
+OnePlan,72,Pass,08.01.19,
+OnePlan,73,Fail,07.06.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+OnePlan,74,Pass,05.12.19,
+OnePlan,75,Fail,06.08.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+OnePlan,76,Pass,09.23.19,
+OnePlan,77,Fail,04.18.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+OnePlan,78,Fail,08.02.19,STG2.0| if i>5 |i=6 |decision control
+OnePlan,79,Pass,06.14.19,
+OnePlan,80,Fail,05.14.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+OnePlan,81,Fail,07.22.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+OnePlan,82,Pass,08.05.19,
+OnePlan,83,Fail,07.07.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+OnePlan,84,Fail,04.20.19,PROD2.0|for i in n:|i++|looping
+OnePlan,85,Pass,08.18.19,
+OnePlan,86,Pass,04.30.19,
+OnePlan,87,Fail,05.21.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+OnePlan,88,Fail,05.04.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+OnePlan,89,Fail,07.04.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+OnePlan,90,Pass,08.12.19,
+OnePlan,91,Fail,08.04.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+OnePlan,92,Pass,09.22.19,
+OnePlan,93,Pass,06.27.19,
+OnePlan,94,Fail,07.22.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+OnePlan,95,Pass,09.11.19,
+OnePlan,96,Pass,09.22.19,
+OnePlan,97,Fail,08.11.19,UAT2.0|while i>6|i<5|validation
+OnePlan,98,Pass,04.22.19,
+OnePlan,99,Pass,07.22.19,
+OnePlan,100,Pass,06.20.19,
+OnePlan,101,Pass,09.08.19,
+OnePlan,102,Fail,07.16.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+OnePlan,103,Pass,09.13.19,
+OnePlan,104,Pass,05.14.19,
+OnePlan,105,Fail,06.01.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+OnePlan,106,Pass,05.27.19,
+OnePlan,107,Fail,05.03.19,UAT2.0|if i<8|i=0|decision control
+OnePlan,108,Pass,07.22.19,
+OnePlan,109,Pass,04.06.19,
+OnePlan,110,Pass,05.02.19,
+OnePlan,111,Fail,07.18.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+OnePlan,112,Fail,06.28.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+OnePlan,113,Pass,07.07.19,
+OnePlan,114,Fail,08.15.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+OnePlan,115,Pass,06.01.19,
+OnePlan,116,Pass,09.04.19,
+OnePlan,117,Pass,08.24.19,
+OnePlan,118,Pass,06.04.19,
+OnePlan,119,Fail,08.27.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+OnePlan,120,Fail,08.31.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+OnePlan,121,Pass,07.12.19,
+OnePlan,122,Fail,09.01.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+OnePlan,123,Pass,06.27.19,
+OnePlan,124,Fail,06.07.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+OnePlan,125,Pass,08.15.19,
+OnePlan,126,Fail,04.08.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+OnePlan,127,Pass,05.16.19,
+OnePlan,128,Pass,09.22.19,
+OnePlan,129,Pass,08.14.19,
+OnePlan,130,Fail,06.11.19,STG2.0|while var >! 0:  |var=balance|validation
+OnePlan,131,Pass,04.04.19,
+OnePlan,132,Fail,05.11.19,"STG2.0|for i in Age|i={name,age}|looping"
+OnePlan,133,Pass,06.08.19,
+OnePlan,134,Pass,08.27.19,
+OnePlan,135,Pass,06.23.19,
+OnePlan,136,Pass,04.02.19,
+OnePlan,137,Fail,06.21.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+OnePlan,138,Pass,09.24.19,
+OnePlan,139,Fail,09.17.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+OnePlan,140,Fail,09.13.19,STG2.0|print(bal)|bal=np.nan|printing
+OnePlan,141,Pass,05.29.19,
+OnePlan,142,Fail,05.08.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+OnePlan,143,Fail,05.14.19,STG2.0| if i>5 |i=6 |decision control
+OnePlan,144,Fail,06.05.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+OnePlan,145,Pass,04.23.19,
+OnePlan,146,Fail,04.07.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+OnePlan,147,Pass,07.17.19,
+OnePlan,148,Fail,06.02.19,STG2.0|while var >! 0:  |var=balance|validation
+OnePlan,149,Pass,04.20.19,
+OnePlan,150,Pass,04.05.19,
+OnePlan,151,Pass,08.06.19,
+OnePlan,152,Pass,07.01.19,
+OnePlan,153,Pass,09.24.19,
+OnePlan,154,Pass,06.21.19,
+OnePlan,155,Fail,04.10.19,STG2.0|while var >! 0:  |var=balance|validation
+OnePlan,156,Pass,07.02.19,
+OnePlan,157,Pass,09.28.19,
+OnePlan,158,Pass,04.07.19,
+OnePlan,159,Pass,08.29.19,
+OnePlan,160,Fail,05.05.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+OnePlan,161,Pass,09.04.19,
+OnePlan,162,Fail,07.28.19,STG2.0|while var >! 0:  |var=balance|validation
+OnePlan,163,Pass,08.15.19,
+OnePlan,164,Pass,08.27.19,
+OnePlan,165,Fail,05.07.19,UAT2.0|while i>6|i<5|validation
+OnePlan,166,Fail,09.01.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+OnePlan,167,Fail,04.14.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+OnePlan,168,Fail,05.24.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+OnePlan,169,Fail,04.12.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+OnePlan,170,Pass,07.27.19,
+OnePlan,171,Fail,06.13.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+OnePlan,172,Pass,07.20.19,
+OnePlan,173,Pass,05.10.19,
+OnePlan,174,Pass,09.01.19,
+OnePlan,175,Fail,08.21.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+OnePlan,176,Pass,05.28.19,
+OnePlan,177,Fail,07.13.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+OnePlan,178,Fail,06.18.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+OnePlan,179,Fail,08.25.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+OnePlan,180,Fail,04.16.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+OnePlan,181,Fail,08.30.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+OnePlan,182,Pass,04.10.19,
+OnePlan,183,Fail,07.05.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+OnePlan,184,Pass,08.29.19,
+OnePlan,185,Fail,05.15.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+OnePlan,186,Fail,06.01.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+OnePlan,187,Fail,07.09.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+OnePlan,188,Pass,09.17.19,
+OnePlan,189,Pass,09.18.19,
+OnePlan,190,Fail,07.21.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+OnePlan,191,Pass,04.27.19,
+OnePlan,192,Fail,07.16.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+VPlan,1,Fail,07.30.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+VPlan,2,Fail,07.29.19,STG2.0| if i>5 |i=6 |decision control
+VPlan,3,Fail,08.13.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+VPlan,4,Fail,06.22.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+VPlan,5,Pass,05.31.19,
+VPlan,6,Pass,05.01.19,
+VPlan,7,Pass,06.14.19,
+VPlan,8,Fail,07.25.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+VPlan,9,Pass,07.02.19,
+VPlan,10,Pass,07.03.19,
+VPlan,11,Pass,08.26.19,
+VPlan,12,Pass,04.18.19,
+VPlan,13,Fail,08.15.19,DEV2.0|print(a)|a=transaction.address|retrive data
+VPlan,14,Fail,05.22.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+VPlan,15,Pass,05.16.19,
+VPlan,16,Fail,05.16.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+VPlan,17,Pass,07.17.19,
+VPlan,18,Fail,07.27.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+VPlan,19,Fail,06.08.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+VPlan,20,Pass,08.11.19,
+VPlan,21,Fail,09.22.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+VPlan,22,Fail,08.21.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+VPlan,23,Pass,04.05.19,
+VPlan,24,Fail,04.16.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+VPlan,25,Fail,09.13.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+VPlan,26,Fail,04.29.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+VPlan,27,Fail,09.11.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+VPlan,28,Pass,08.26.19,
+VPlan,29,Fail,04.21.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+VPlan,30,Fail,07.05.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+VPlan,31,Fail,09.05.19,DEV2.0| print(balance)|balance=np.nan| printing
+VPlan,32,Fail,09.23.19,"STG2.0|for i in Age|i={name,age}|looping"
+VPlan,33,Pass,06.21.19,
+VPlan,34,Pass,09.28.19,
+VPlan,35,Pass,09.11.19,
+VPlan,36,Pass,06.06.19,
+VPlan,37,Fail,05.20.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+VPlan,38,Pass,07.31.19,
+VPlan,39,Fail,08.04.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+VPlan,40,Fail,04.21.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+VPlan,41,Pass,07.21.19,
+VPlan,42,Pass,08.26.19,
+VPlan,43,Fail,06.23.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+VPlan,44,Fail,08.05.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+VPlan,45,Pass,09.16.19,
+VPlan,46,Fail,05.23.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+VPlan,47,Pass,07.02.19,
+VPlan,48,Fail,08.04.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+VPlan,49,Pass,08.13.19,
+VPlan,50,Pass,09.10.19,
+VPlan,51,Fail,05.13.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+VPlan,52,Fail,04.08.19,PROD2.0|for i in n:|i++|looping
+VPlan,53,Fail,09.22.19,STG2.0|while var >! 0:  |var=balance|validation
+VPlan,54,Fail,05.29.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+VPlan,55,Fail,05.28.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+VPlan,56,Fail,09.16.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+VPlan,57,Pass,07.11.19,
+VPlan,58,Pass,09.30.19,
+VPlan,59,Pass,09.12.19,
+VPlan,60,Fail,05.04.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+VPlan,61,Fail,06.27.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+VPlan,62,Fail,08.16.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+VPlan,63,Fail,06.08.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+VPlan,64,Pass,07.08.19,
+VPlan,65,Fail,07.30.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+VPlan,66,Pass,08.15.19,
+VPlan,67,Fail,04.25.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+VPlan,68,Pass,08.02.19,
+VPlan,69,Fail,08.06.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+VPlan,70,Pass,07.06.19,
+VPlan,71,Pass,08.08.19,
+VPlan,72,Fail,07.10.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+VPlan,73,Fail,07.06.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+VPlan,74,Fail,05.30.19,UAT2.0|if i>z|i=z|decision control
+VPlan,75,Fail,04.09.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+VPlan,76,Pass,09.14.19,
+VPlan,77,Pass,07.26.19,
+VPlan,78,Fail,08.23.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+VPlan,79,Pass,06.23.19,
+VPlan,80,Fail,05.29.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+VPlan,81,Fail,07.12.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+VPlan,82,Fail,04.18.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+VPlan,83,Pass,08.27.19,
+VPlan,84,Pass,09.25.19,
+VPlan,85,Fail,05.20.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+VPlan,86,Fail,08.28.19,UAT2.0|if i<8|i=0|decision control
+VPlan,87,Pass,07.05.19,
+VPlan,88,Pass,04.08.19,
+VPlan,89,Pass,07.07.19,
+VPlan,90,Fail,07.27.19,DEV2.0|print(a)|a=transaction.address|retrive data
+VPlan,91,Fail,09.17.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+VPlan,92,Pass,08.04.19,
+VPlan,93,Fail,07.28.19,PROD2.0|for i in n:|i++|looping
+VPlan,94,Fail,05.04.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+VPlan,95,Fail,06.29.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+VPlan,96,Pass,04.15.19,
+VPlan,97,Pass,07.08.19,
+VPlan,98,Fail,04.04.19,STG2.0|print(bal)|bal=np.nan|printing
+VPlan,99,Fail,06.06.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+VPlan,100,Pass,09.01.19,
+VPlan,101,Pass,05.27.19,
+VPlan,102,Pass,04.05.19,
+VPlan,103,Fail,07.24.19,STG2.0| if i>5 |i=6 |decision control
+VPlan,104,Pass,05.10.19,
+VPlan,105,Fail,09.26.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+VPlan,106,Pass,04.06.19,
+VPlan,107,Pass,09.24.19,
+VPlan,108,Pass,04.22.19,
+VPlan,109,Pass,09.17.19,
+VPlan,110,Fail,05.17.19,UAT2.0|while i>6|i<5|validation
+VPlan,111,Fail,09.08.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+VPlan,112,Pass,04.10.19,
+VPlan,113,Pass,06.18.19,
+VPlan,114,Fail,04.11.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+VPlan,115,Pass,08.06.19,
+VPlan,116,Fail,09.13.19,STG2.0| if i>5 |i=6 |decision control
+VPlan,117,Pass,07.05.19,
+VPlan,118,Fail,09.06.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+VPlan,119,Fail,07.20.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+VPlan,120,Pass,07.08.19,
+VPlan,121,Fail,04.28.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+VPlan,122,Fail,04.05.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+VPlan,123,Fail,04.04.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+VPlan,124,Pass,04.03.19,
+VPlan,125,Fail,07.12.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+VPlan,126,Pass,06.22.19,
+VPlan,127,Fail,08.21.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+VPlan,128,Pass,05.05.19,
+VPlan,129,Pass,07.14.19,
+VPlan,130,Pass,09.30.19,
+VPlan,131,Fail,05.27.19,DEV2.0| print(balance)|balance=np.nan| printing
+VPlan,132,Pass,05.01.19,
+VPlan,133,Fail,08.01.19,"STG2.0|for i in Age|i={name,age}|looping"
+VPlan,134,Pass,05.05.19,
+VPlan,135,Fail,04.19.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+VPlan,136,Fail,05.27.19,DEV2.0|print(a)|a=transaction.address|retrive data
+VPlan,137,Fail,05.13.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+VPlan,138,Fail,06.20.19,PROD2.0|for i in n:|i++|looping
+VPlan,139,Pass,09.14.19,
+VPlan,140,Pass,09.23.19,
+VPlan,141,Fail,08.17.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+VPlan,142,Fail,05.21.19,DEV2.0| print(balance)|balance=np.nan| printing
+VPlan,143,Pass,06.20.19,
+VPlan,144,Fail,06.30.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+VPlan,145,Pass,04.06.19,
+VPlan,146,Pass,04.28.19,
+VPlan,147,Fail,07.31.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+VPlan,148,Fail,05.20.19,UAT2.0|if i<8|i=0|decision control
+VPlan,149,Fail,06.14.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+VPlan,150,Pass,04.01.19,
+VPlan,151,Fail,05.27.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+VPlan,152,Fail,04.10.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+VPlan,153,Fail,05.27.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+VPlan,154,Fail,04.20.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+VPlan,155,Fail,09.04.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+VPlan,156,Fail,09.25.19,STG2.0|while var >! 0:  |var=balance|validation
+VPlan,157,Fail,05.29.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+VPlan,158,Pass,07.25.19,
+VPlan,159,Fail,09.08.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+VPlan,160,Pass,04.01.19,
+VPlan,161,Fail,08.22.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+VPlan,162,Fail,07.14.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+VPlan,163,Pass,07.15.19,
+VPlan,164,Pass,07.27.19,
+VPlan,165,Pass,04.08.19,
+VPlan,166,Pass,07.27.19,
+VPlan,167,Fail,05.28.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+VPlan,168,Fail,05.27.19,STG2.0|print(bal)|bal=np.nan|printing
+VPlan,169,Pass,05.16.19,
+VPlan,170,Fail,08.06.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+VPlan,171,Fail,07.02.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+VPlan,172,Fail,09.09.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+VPlan,173,Fail,04.20.19,PROD2.0|for i in n:|i++|looping
+VPlan,174,Fail,05.11.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+VPlan,175,Pass,06.13.19,
+VPlan,176,Pass,09.14.19,
+VPlan,177,Fail,06.09.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+VPlan,178,Pass,08.22.19,
+VPlan,179,Pass,04.09.19,
+VPlan,180,Pass,06.28.19,
+VPlan,181,Fail,07.27.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+VPlan,182,Pass,08.31.19,
+VPlan,183,Pass,09.12.19,
+VPlan,184,Fail,07.12.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+VPlan,185,Fail,04.15.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+VPlan,186,Fail,04.24.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+VPlan,187,Fail,05.23.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+VPlan,188,Pass,06.13.19,
+VPlan,189,Fail,04.08.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+VPlan,190,Pass,06.25.19,
+VPlan,191,Pass,05.15.19,
+VPlan,192,Fail,09.22.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+VPlan,193,Fail,07.20.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+ICGS,1,Fail,07.06.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+ICGS,2,Fail,09.12.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+ICGS,3,Pass,09.12.19,
+ICGS,4,Fail,09.30.19,UAT2.0|if i>z|i=z|decision control
+ICGS,5,Pass,09.28.19,
+ICGS,6,Fail,09.11.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+ICGS,7,Fail,09.05.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+ICGS,8,Pass,09.21.19,
+ICGS,9,Fail,06.08.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+ICGS,10,Pass,09.15.19,
+ICGS,11,Pass,08.04.19,
+ICGS,12,Pass,04.03.19,
+ICGS,13,Pass,07.31.19,
+ICGS,14,Pass,05.20.19,
+ICGS,15,Fail,05.16.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+ICGS,16,Pass,09.08.19,
+ICGS,17,Pass,05.07.19,
+ICGS,18,Fail,08.15.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+ICGS,19,Pass,07.09.19,
+ICGS,20,Pass,05.23.19,
+ICGS,21,Fail,06.30.19,STG2.0|print(bal)|bal=np.nan|printing
+ICGS,22,Fail,04.02.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+ICGS,23,Fail,07.07.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+ICGS,24,Pass,04.19.19,
+ICGS,25,Pass,07.29.19,
+ICGS,26,Fail,05.30.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+ICGS,27,Fail,08.31.19,PROD2.0|for i in n:|i++|looping
+ICGS,28,Pass,05.29.19,
+ICGS,29,Fail,04.30.19,DEV2.0| print(balance)|balance=np.nan| printing
+ICGS,30,Fail,06.23.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+ICGS,31,Pass,08.22.19,
+ICGS,32,Fail,05.24.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+ICGS,33,Fail,04.14.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+ICGS,34,Pass,09.14.19,
+ICGS,35,Pass,08.10.19,
+ICGS,36,Pass,05.17.19,
+ICGS,37,Pass,08.26.19,
+ICGS,38,Fail,08.09.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+ICGS,39,Fail,06.21.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+ICGS,40,Pass,05.02.19,
+ICGS,41,Pass,05.29.19,
+ICGS,42,Fail,05.16.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+ICGS,43,Pass,09.17.19,
+ICGS,44,Fail,09.04.19,UAT2.0|if i>z|i=z|decision control
+ICGS,45,Pass,05.07.19,
+ICGS,46,Pass,06.19.19,
+ICGS,47,Pass,08.17.19,
+ICGS,48,Fail,05.18.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+ICGS,49,Fail,06.11.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+ICGS,50,Fail,08.25.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+ICGS,51,Fail,04.06.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+ICGS,52,Fail,06.15.19,UAT2.0|if i>z|i=z|decision control
+ICGS,53,Pass,09.07.19,
+ICGS,54,Fail,05.04.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+ICGS,55,Fail,04.09.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+ICGS,56,Pass,09.16.19,
+ICGS,57,Fail,06.11.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+ICGS,58,Pass,09.26.19,
+ICGS,59,Fail,05.17.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+ICGS,60,Pass,08.02.19,
+ICGS,61,Pass,05.02.19,
+ICGS,62,Fail,04.03.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+ICGS,63,Fail,07.01.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+ICGS,64,Pass,06.23.19,
+ICGS,65,Pass,05.24.19,
+ICGS,66,Fail,05.18.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+ICGS,67,Fail,08.06.19,DEV2.0| print(balance)|balance=np.nan| printing
+ICGS,68,Pass,09.17.19,
+ICGS,69,Pass,05.10.19,
+ICGS,70,Fail,08.30.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+ICGS,71,Fail,07.22.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+ICGS,72,Pass,05.12.19,
+ICGS,73,Fail,05.14.19,DEV2.0| print(balance)|balance=np.nan| printing
+ICGS,74,Fail,09.09.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+ICGS,75,Pass,07.21.19,
+ICGS,76,Pass,04.01.19,
+ICGS,77,Fail,06.13.19,STG2.0|print(bal)|bal=np.nan|printing
+ICGS,78,Fail,07.11.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+ICGS,79,Pass,07.22.19,
+ICGS,80,Fail,04.04.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+ICGS,81,Pass,08.05.19,
+ICGS,82,Fail,08.08.19,UAT2.0|if i<8|i=0|decision control
+ICGS,83,Fail,05.13.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+ICGS,84,Pass,04.19.19,
+ICGS,85,Fail,08.01.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+ICGS,86,Fail,05.13.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+ICGS,87,Fail,08.22.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+ICGS,88,Fail,04.17.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+ICGS,89,Fail,06.17.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+ICGS,90,Pass,05.26.19,
+ICGS,91,Fail,05.05.19,UAT2.0|if i>z|i=z|decision control
+ICGS,92,Pass,09.26.19,
+ICGS,93,Pass,04.25.19,
+ICGS,94,Pass,04.13.19,
+ICGS,95,Pass,04.06.19,
+ICGS,96,Fail,05.05.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+ICGS,97,Pass,05.03.19,
+ICGS,98,Fail,09.26.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+ICGS,99,Pass,09.16.19,
+ICGS,100,Pass,08.18.19,
+ICGS,101,Fail,07.03.19,DEV2.0| print(balance)|balance=np.nan| printing
+ICGS,102,Fail,08.02.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+ICGS,103,Fail,05.05.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+ICGS,104,Fail,05.29.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+ICGS,105,Fail,07.12.19,"STG2.0|for i in Age|i={name,age}|looping"
+ICGS,106,Fail,04.30.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+ICGS,107,Pass,04.20.19,
+ICGS,108,Pass,07.27.19,
+ICGS,109,Fail,04.20.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+ICGS,110,Fail,07.07.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+ICGS,111,Fail,07.18.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+ICGS,112,Fail,07.20.19,DEV2.0| print(balance)|balance=np.nan| printing
+ICGS,113,Pass,08.17.19,
+ICGS,114,Fail,07.10.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+ICGS,115,Pass,05.31.19,
+ICGS,116,Fail,09.08.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+ICGS,117,Pass,04.05.19,
+ICGS,118,Fail,06.01.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+ICGS,119,Pass,04.26.19,
+ICGS,120,Pass,07.27.19,
+ICGS,121,Fail,06.08.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+ICGS,122,Pass,07.27.19,
+ICGS,123,Fail,05.04.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+ICGS,124,Pass,09.11.19,
+ICGS,125,Fail,06.21.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+ICGS,126,Pass,04.10.19,
+ICGS,127,Fail,04.24.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+ICGS,128,Fail,04.09.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+ICGS,129,Pass,04.04.19,
+ICGS,130,Pass,08.23.19,
+ICGS,131,Pass,08.10.19,
+ICGS,132,Fail,04.12.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+ICGS,133,Fail,04.06.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+ICGS,134,Fail,06.03.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+ICGS,135,Fail,04.21.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+ICGS,136,Pass,08.01.19,
+ICGS,137,Pass,09.24.19,
+ICGS,138,Pass,08.23.19,
+ICGS,139,Pass,04.26.19,
+ICGS,140,Pass,07.28.19,
+ICGS,141,Fail,04.22.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+ICGS,142,Pass,06.29.19,
+ICGS,143,Pass,06.24.19,
+ICGS,144,Pass,07.28.19,
+ICGS,145,Pass,08.26.19,
+ICGS,146,Fail,07.19.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+ICGS,147,Pass,07.10.19,
+ICGS,148,Pass,06.27.19,
+ICGS,149,Pass,06.06.19,
+ICGS,150,Fail,06.30.19,UAT2.0|if i>z|i=z|decision control
+ICGS,151,Fail,08.25.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+ICGS,152,Fail,09.07.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+ICGS,153,Pass,09.17.19,
+ICGS,154,Pass,07.20.19,
+ICGS,155,Fail,05.14.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+ICGS,156,Pass,08.02.19,
+ICGS,157,Fail,09.28.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+ICGS,158,Fail,07.06.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+ICGS,159,Pass,07.01.19,
+ICGS,160,Pass,09.27.19,
+ICGS,161,Fail,04.27.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+ICGS,162,Pass,09.25.19,
+ICGS,163,Pass,07.26.19,
+ICGS,164,Pass,07.28.19,
+ICGS,165,Pass,09.10.19,
+ICGS,166,Pass,08.09.19,
+ICGS,167,Pass,08.14.19,
+ICGS,168,Pass,06.30.19,
+ICGS,169,Fail,05.23.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+ICGS,170,Pass,07.13.19,
+ICGS,171,Pass,08.07.19,
+ICGS,172,Pass,04.04.19,
+ICGS,173,Fail,06.11.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+ICGS,174,Fail,08.18.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+ICGS,175,Pass,04.08.19,
+ICGS,176,Pass,08.25.19,
+ICGS,177,Fail,07.20.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+ICGS,178,Pass,08.29.19,
+ICGS,179,Fail,07.29.19,PROD2.0|for i in n:|i++|looping
+ICGS,180,Fail,08.22.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+ICGS,181,Pass,07.23.19,
+ICGS,182,Fail,09.07.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+ICGS,183,Pass,09.03.19,
+ICGS,184,Fail,04.09.19,STG2.0|while var >! 0:  |var=balance|validation
+ICGS,185,Fail,05.16.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+ICGS,186,Fail,08.18.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+ICGS,187,Pass,08.29.19,
+ICGS,188,Pass,05.07.19,
+ICGS,189,Fail,05.06.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+ICGS,190,Fail,09.13.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+ICGS,191,Pass,06.09.19,
+ICGS,192,Fail,07.03.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+ICGS,193,Pass,09.01.19,
+ICGS,194,Pass,08.19.19,
+ICGS,195,Fail,04.04.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+ICGS,196,Pass,05.11.19,
+ICGS,197,Pass,08.04.19,
+ICGS,198,Fail,05.02.19,STG2.0|print(bal)|bal=np.nan|printing
+ICGS,199,Pass,07.17.19,
+ICGS,200,Pass,07.20.19,
+ICGS,201,Fail,09.06.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+ICGS,202,Pass,09.22.19,
+ICGS,203,Pass,04.27.19,
+ICGS,204,Pass,07.14.19,
+ICGS,205,Fail,08.27.19,UAT2.0|if i>z|i=z|decision control
+ICGS,206,Fail,07.25.19,STG2.0| if i>5 |i=6 |decision control
+ICGS,207,Pass,08.05.19,
+ICGS,208,Fail,06.05.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+ICGS,209,Fail,07.07.19,STG2.0|print(bal)|bal=np.nan|printing
+ICGS,210,Fail,04.15.19,STG2.0|while var >! 0:  |var=balance|validation
+ICGS,211,Pass,08.28.19,
+ICGS,212,Pass,05.11.19,
+ICGS,213,Pass,06.30.19,
+ICGS,214,Pass,07.18.19,
+ICGS,215,Fail,07.29.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+ICGS,216,Pass,09.17.19,
+ICGS,217,Pass,05.07.19,
+ICGS,218,Fail,06.04.19,UAT2.0|while i>6|i<5|validation
+ICGS,219,Fail,07.22.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+ICGS,220,Fail,09.27.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+ICGS,221,Fail,08.23.19,"STG2.0|for i in Age|i={name,age}|looping"
+ICGS,222,Pass,08.07.19,
+ICGS,223,Pass,08.08.19,
+ICGS,224,Pass,04.24.19,
+ICGS,225,Pass,07.16.19,
+ICGS,226,Fail,06.30.19,STG2.0| if i>5 |i=6 |decision control
+ICGS,227,Fail,09.10.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+ICGS,228,Pass,07.29.19,
+ICGS,229,Pass,07.05.19,
+ICGS,230,Pass,06.23.19,
+COEP,1,Pass,08.23.19,
+COEP,2,Fail,06.30.19,PROD2.0|for i in n:|i++|looping
+COEP,3,Fail,05.24.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+COEP,4,Fail,07.03.19,STG2.0| if i>5 |i=6 |decision control
+COEP,5,Pass,04.05.19,
+COEP,6,Pass,08.20.19,
+COEP,7,Pass,09.22.19,
+COEP,8,Fail,05.07.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+COEP,9,Pass,05.17.19,
+COEP,10,Pass,07.13.19,
+COEP,11,Fail,07.30.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+COEP,12,Fail,08.08.19,"STG2.0|for i in Age|i={name,age}|looping"
+COEP,13,Pass,04.04.19,
+COEP,14,Fail,07.18.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+COEP,15,Fail,06.13.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+COEP,16,Pass,08.25.19,
+COEP,17,Pass,04.14.19,
+COEP,18,Pass,09.09.19,
+COEP,19,Fail,09.10.19,UAT2.0|if i<8|i=0|decision control
+COEP,20,Fail,09.06.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+COEP,21,Fail,07.24.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+COEP,22,Pass,07.11.19,
+COEP,23,Fail,08.15.19,DEV2.0|print(a)|a=transaction.address|retrive data
+COEP,24,Pass,04.22.19,
+COEP,25,Fail,07.05.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+COEP,26,Pass,07.31.19,
+COEP,27,Pass,04.14.19,
+COEP,28,Fail,04.01.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+COEP,29,Pass,05.15.19,
+COEP,30,Pass,04.27.19,
+COEP,31,Fail,06.16.19,PROD2.0|for i in n:|i++|looping
+COEP,32,Fail,09.04.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+COEP,33,Fail,07.03.19,UAT2.0|while i>6|i<5|validation
+COEP,34,Fail,06.01.19,STG2.0|while var >! 0:  |var=balance|validation
+COEP,35,Fail,04.19.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+COEP,36,Pass,07.21.19,
+COEP,37,Fail,08.28.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+COEP,38,Fail,06.01.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+COEP,39,Pass,06.05.19,
+COEP,40,Fail,05.21.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+COEP,41,Pass,08.26.19,
+COEP,42,Fail,04.04.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+COEP,43,Fail,04.03.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+COEP,44,Pass,05.24.19,
+COEP,45,Fail,05.17.19,UAT2.0|if i>z|i=z|decision control
+COEP,46,Pass,09.30.19,
+COEP,47,Pass,07.20.19,
+COEP,48,Pass,05.11.19,
+COEP,49,Fail,04.25.19,UAT2.0|while i>6|i<5|validation
+COEP,50,Pass,08.18.19,
+COEP,51,Fail,08.17.19,"STG2.0|for i in Age|i={name,age}|looping"
+COEP,52,Pass,04.13.19,
+COEP,53,Fail,05.29.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+COEP,54,Pass,04.06.19,
+COEP,55,Fail,06.27.19,STG2.0|print(bal)|bal=np.nan|printing
+COEP,56,Fail,07.23.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+COEP,57,Fail,05.20.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+COEP,58,Fail,06.04.19,UAT2.0|if i>z|i=z|decision control
+COEP,59,Fail,07.13.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+COEP,60,Pass,09.28.19,
+COEP,61,Pass,09.19.19,
+COEP,62,Fail,06.17.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+COEP,63,Fail,05.11.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+COEP,64,Pass,08.07.19,
+COEP,65,Fail,04.10.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+COEP,66,Pass,09.17.19,
+COEP,67,Pass,07.27.19,
+COEP,68,Fail,06.15.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+COEP,69,Fail,04.01.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+COEP,70,Pass,09.05.19,
+COEP,71,Pass,06.12.19,
+COEP,72,Pass,05.14.19,
+COEP,73,Pass,09.18.19,
+COEP,74,Fail,08.25.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+COEP,75,Fail,08.21.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+COEP,76,Pass,06.28.19,
+COEP,77,Fail,09.19.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+COEP,78,Fail,07.29.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+COEP,79,Fail,09.13.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+COEP,80,Pass,04.30.19,
+COEP,81,Fail,05.06.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+COEP,82,Fail,05.11.19,"STG2.0|for i in Age|i={name,age}|looping"
+COEP,83,Fail,08.19.19,DEV2.0|print(a)|a=transaction.address|retrive data
+COEP,84,Fail,04.12.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+COEP,85,Pass,05.27.19,
+COEP,86,Fail,07.03.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+COEP,87,Pass,07.01.19,
+COEP,88,Fail,09.13.19,"STG2.0|for i in Age|i={name,age}|looping"
+COEP,89,Pass,06.14.19,
+COEP,90,Pass,04.20.19,
+COEP,91,Pass,06.24.19,
+COEP,92,Fail,08.24.19,STG2.0|print(bal)|bal=np.nan|printing
+COEP,93,Pass,09.03.19,
+COEP,94,Fail,05.23.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+COEP,95,Fail,04.30.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+COEP,96,Fail,06.08.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+COEP,97,Pass,05.21.19,
+COEP,98,Fail,05.01.19,UAT2.0|if i<8|i=0|decision control
+COEP,99,Pass,09.23.19,
+COEP,100,Pass,05.29.19,
+COEP,101,Fail,05.06.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+COEP,102,Pass,09.18.19,
+COEP,103,Fail,09.07.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+COEP,104,Pass,04.16.19,
+COEP,105,Fail,05.28.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+COEP,106,Pass,08.21.19,
+COEP,107,Pass,05.08.19,
+COEP,108,Fail,05.21.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+COEP,109,Fail,04.22.19,PROD2.0|for i in n:|i++|looping
+COEP,110,Pass,04.25.19,
+COEP,111,Fail,07.09.19,STG2.0|while var >! 0:  |var=balance|validation
+COEP,112,Fail,08.07.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+COEP,113,Fail,07.05.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+COEP,114,Fail,07.01.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+COEP,115,Pass,04.25.19,
+COEP,116,Pass,05.01.19,
+COEP,117,Fail,07.25.19,UAT2.0|if i>z|i=z|decision control
+COEP,118,Fail,05.21.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+COEP,119,Fail,07.27.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+COEP,120,Pass,04.03.19,
+COEP,121,Pass,09.23.19,
+COEP,122,Pass,05.10.19,
+COEP,123,Pass,09.18.19,
+COEP,124,Fail,07.25.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+COEP,125,Pass,08.01.19,
+COEP,126,Pass,09.16.19,
+COEP,127,Fail,06.06.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+COEP,128,Pass,07.07.19,
+COEP,129,Fail,06.25.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+COEP,130,Pass,07.30.19,
+COEP,131,Fail,04.26.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+COEP,132,Fail,09.16.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+COEP,133,Fail,04.22.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+COEP,134,Pass,08.25.19,
+COEP,135,Fail,05.27.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+COEP,136,Fail,09.15.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+COEP,137,Fail,05.02.19,UAT2.0|if i>z|i=z|decision control
+COEP,138,Pass,05.22.19,
+COEP,139,Pass,05.17.19,
+COEP,140,Pass,07.23.19,
+COEP,141,Fail,09.28.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+COEP,142,Pass,07.09.19,
+COEP,143,Pass,06.08.19,
+COEP,144,Fail,04.25.19,DEV2.0| print(balance)|balance=np.nan| printing
+COEP,145,Pass,04.05.19,
+COEP,146,Pass,07.14.19,
+COEP,147,Pass,08.10.19,
+COEP,148,Fail,04.01.19,UAT2.0|while i>6|i<5|validation
+COEP,149,Pass,09.28.19,
+COEP,150,Fail,09.27.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+COEP,151,Pass,08.25.19,
+COEP,152,Fail,09.01.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+COEP,153,Pass,06.19.19,
+COEP,154,Fail,04.22.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+COEP,155,Pass,09.24.19,
+COEP,156,Pass,05.25.19,
+COEP,157,Fail,07.03.19,DEV2.0| print(balance)|balance=np.nan| printing
+COEP,158,Fail,04.08.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+COEP,159,Pass,09.17.19,
+COEP,160,Fail,05.24.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+COEP,161,Fail,04.27.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+COEP,162,Pass,09.24.19,
+COEP,163,Pass,08.28.19,
+COEP,164,Fail,05.07.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+COEP,165,Fail,08.11.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+COEP,166,Pass,04.21.19,
+COEP,167,Pass,05.01.19,
+COEP,168,Pass,04.13.19,
+COEP,169,Pass,04.03.19,
+COEP,170,Pass,05.08.19,
+COEP,171,Pass,04.25.19,
+COEP,172,Fail,04.25.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+COEP,173,Fail,04.05.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+COEP,174,Fail,09.30.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+COEP,175,Pass,09.07.19,
+COEP,176,Pass,07.27.19,
+COEP,177,Pass,07.27.19,
+COEP,178,Pass,07.18.19,
+COEP,179,Fail,08.28.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+COEP,180,Fail,06.11.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+COEP,181,Fail,04.29.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+COEP,182,Fail,08.29.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+COEP,183,Fail,09.28.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+COEP,184,Pass,06.23.19,
+COEP,185,Pass,09.10.19,
+COEP,186,Fail,08.03.19,DEV2.0|print(a)|a=transaction.address|retrive data
+COEP,187,Pass,07.18.19,
+COEP,188,Pass,08.15.19,
+COEP,189,Fail,08.30.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+COEP,190,Pass,09.02.19,
+COEP,191,Pass,07.10.19,
+COEP,192,Pass,09.30.19,
+COEP,193,Fail,05.03.19,STG2.0| if i>5 |i=6 |decision control
+COEP,194,Pass,07.17.19,
+COEP,195,Pass,06.02.19,
+COEP,196,Pass,05.04.19,
+COEP,197,Fail,04.16.19,DEV2.0| print(balance)|balance=np.nan| printing
+COEP,198,Fail,04.18.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+COEP,199,Pass,05.21.19,
+COEP,200,Pass,08.14.19,
+COEP,201,Pass,08.01.19,
+COEP,202,Fail,07.05.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+GFIM,1,Fail,08.27.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+GFIM,2,Fail,07.06.19,UAT2.0|if i>z|i=z|decision control
+GFIM,3,Pass,08.03.19,
+GFIM,4,Pass,04.22.19,
+GFIM,5,Fail,05.28.19,STG2.0|while var >! 0:  |var=balance|validation
+GFIM,6,Pass,08.09.19,
+GFIM,7,Pass,06.29.19,
+GFIM,8,Fail,04.08.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+GFIM,9,Pass,06.06.19,
+GFIM,10,Fail,06.21.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+GFIM,11,Fail,07.03.19,UAT2.0|if i<8|i=0|decision control
+GFIM,12,Pass,06.18.19,
+GFIM,13,Fail,08.30.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+GFIM,14,Pass,06.22.19,
+GFIM,15,Pass,07.27.19,
+GFIM,16,Fail,04.30.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+GFIM,17,Fail,05.17.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+GFIM,18,Fail,06.21.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+GFIM,19,Fail,04.06.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+GFIM,20,Fail,07.04.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+GFIM,21,Fail,07.22.19,UAT2.0|if i<8|i=0|decision control
+GFIM,22,Fail,08.12.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+GFIM,23,Fail,09.18.19,STG2.0|while var >! 0:  |var=balance|validation
+GFIM,24,Fail,08.04.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+GFIM,25,Fail,05.21.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+GFIM,26,Pass,04.29.19,
+GFIM,27,Fail,07.14.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+GFIM,28,Pass,04.07.19,
+GFIM,29,Pass,05.14.19,
+GFIM,30,Pass,07.09.19,
+GFIM,31,Fail,08.17.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+GFIM,32,Pass,09.18.19,
+GFIM,33,Fail,04.21.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+GFIM,34,Pass,06.06.19,
+GFIM,35,Pass,07.27.19,
+GFIM,36,Pass,09.07.19,
+GFIM,37,Fail,06.13.19,"STG2.0|for i in Age|i={name,age}|looping"
+GFIM,38,Fail,05.29.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+GFIM,39,Pass,09.09.19,
+GFIM,40,Fail,08.22.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+GFIM,41,Fail,08.20.19,UAT2.0|while i>6|i<5|validation
+GFIM,42,Pass,08.18.19,
+GFIM,43,Pass,05.16.19,
+GFIM,44,Fail,09.25.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+GFIM,45,Pass,09.27.19,
+GFIM,46,Pass,05.01.19,
+GFIM,47,Pass,09.05.19,
+GFIM,48,Fail,05.28.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+GFIM,49,Fail,09.10.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+GFIM,50,Pass,07.13.19,
+GFIM,51,Pass,04.06.19,
+GFIM,52,Fail,09.03.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+GFIM,53,Pass,04.03.19,
+GFIM,54,Pass,08.05.19,
+GFIM,55,Fail,09.21.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+GFIM,56,Fail,07.26.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+GFIM,57,Fail,07.02.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+GFIM,58,Fail,07.30.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+GFIM,59,Fail,08.27.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+GFIM,60,Pass,06.28.19,
+GFIM,61,Fail,07.20.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+GFIM,62,Pass,09.03.19,
+GFIM,63,Fail,08.13.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+GFIM,64,Pass,05.21.19,
+GFIM,65,Pass,04.14.19,
+GFIM,66,Fail,09.23.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+GFIM,67,Pass,07.27.19,
+GFIM,68,Fail,07.18.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+GFIM,69,Fail,06.21.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+GFIM,70,Pass,05.22.19,
+GFIM,71,Pass,04.15.19,
+GFIM,72,Fail,09.09.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+GFIM,73,Pass,09.06.19,
+GFIM,74,Fail,06.09.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+GFIM,75,Fail,06.30.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+GFIM,76,Fail,09.09.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+GFIM,77,Fail,09.09.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+GFIM,78,Pass,05.27.19,
+GFIM,79,Fail,04.06.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+GFIM,80,Pass,05.09.19,
+GFIM,81,Pass,06.15.19,
+GFIM,82,Pass,08.15.19,
+GFIM,83,Fail,08.25.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+GFIM,84,Pass,04.07.19,
+GFIM,85,Pass,05.18.19,
+GFIM,86,Fail,07.23.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+GFIM,87,Pass,06.23.19,
+GFIM,88,Pass,07.25.19,
+GFIM,89,Fail,06.11.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+GFIM,90,Fail,06.08.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+GFIM,91,Fail,05.13.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+GFIM,92,Pass,07.11.19,
+GFIM,93,Pass,07.16.19,
+GFIM,94,Pass,09.23.19,
+GFIM,95,Pass,08.04.19,
+GFIM,96,Fail,09.12.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+GFIM,97,Pass,06.09.19,
+GFIM,98,Pass,09.18.19,
+GFIM,99,Fail,06.22.19,UAT2.0|if i>z|i=z|decision control
+GFIM,100,Pass,05.24.19,
+GFIM,101,Fail,07.19.19,STG2.0| if i>5 |i=6 |decision control
+GFIM,102,Fail,09.06.19,UAT2.0|while i>6|i<5|validation
+GFIM,103,Fail,04.28.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+GFIM,104,Pass,09.21.19,
+GFIM,105,Fail,04.30.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+GFIM,106,Fail,08.30.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+GFIM,107,Pass,05.14.19,
+GFIM,108,Pass,08.14.19,
+GFIM,109,Pass,07.03.19,
+GFIM,110,Pass,04.27.19,
+GFIM,111,Pass,06.22.19,
+GFIM,112,Pass,08.05.19,
+GFIM,113,Pass,09.06.19,
+GFIM,114,Fail,04.19.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+GFIM,115,Pass,06.20.19,
+GFIM,116,Fail,04.16.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+GFIM,117,Fail,05.03.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+GFIM,118,Fail,06.11.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+GFIM,119,Pass,05.15.19,
+GFIM,120,Fail,07.25.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+GFIM,121,Pass,05.12.19,
+GFIM,122,Pass,09.05.19,
+GFIM,123,Fail,07.06.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+GFIM,124,Fail,09.26.19,STG2.0|print(bal)|bal=np.nan|printing
+GFIM,125,Fail,08.13.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+GFIM,126,Fail,05.12.19,UAT2.0|if i<8|i=0|decision control
+GFIM,127,Fail,09.21.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+GFIM,128,Fail,08.09.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+GFIM,129,Fail,07.24.19,UAT2.0|if i>z|i=z|decision control
+GFIM,130,Fail,04.01.19,STG2.0|while var >! 0:  |var=balance|validation
+GFIM,131,Pass,08.08.19,
+GFIM,132,Fail,08.19.19,DEV2.0|print(a)|a=transaction.address|retrive data
+GFIM,133,Pass,08.26.19,
+GFIM,134,Pass,07.28.19,
+GFIM,135,Fail,05.16.19,"STG2.0|for i in Age|i={name,age}|looping"
+GFIM,136,Fail,06.01.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+GFIM,137,Fail,09.05.19,UAT2.0|if i<8|i=0|decision control
+GFIM,138,Pass,07.26.19,
+GFIM,139,Fail,06.05.19,STG2.0|print(bal)|bal=np.nan|printing
+GFIM,140,Pass,09.07.19,
+GFIM,141,Pass,05.30.19,
+GFIM,142,Pass,06.29.19,
+GFIM,143,Pass,07.23.19,
+GFIM,144,Fail,08.05.19,"STG2.0|for i in Age|i={name,age}|looping"
+GFIM,145,Pass,05.29.19,
+GFIM,146,Fail,08.15.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+GFIM,147,Pass,04.07.19,
+GFIM,148,Pass,08.19.19,
+GFIM,149,Pass,07.24.19,
+GFIM,150,Pass,08.02.19,
+GFIM,151,Fail,06.08.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+GFIM,152,Fail,08.20.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+GFIM,153,Pass,04.14.19,
+GFIM,154,Pass,09.15.19,
+GFIM,155,Pass,09.23.19,
+GFIM,156,Fail,04.09.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+GFIM,157,Fail,04.02.19,UAT2.0|if i>z|i=z|decision control
+GFIM,158,Pass,04.08.19,
+GFIM,159,Fail,05.29.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+GFIM,160,Fail,09.27.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+GFIM,161,Pass,07.31.19,
+GFIM,162,Pass,08.12.19,
+GFIM,163,Fail,09.13.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+GFIM,164,Pass,04.22.19,
+GFIM,165,Pass,08.09.19,
+GFIM,166,Pass,04.02.19,
+GFIM,167,Fail,05.04.19,PROD2.0|for i in n:|i++|looping
+GFIM,168,Fail,07.30.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+GFIM,169,Pass,04.11.19,
+GFIM,170,Pass,07.29.19,
+GFIM,171,Fail,04.23.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+GFIM,172,Fail,08.22.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+GFIM,173,Pass,09.08.19,
+GFIM,174,Fail,06.21.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+GFIM,175,Pass,07.08.19,
+GFIM,176,Pass,06.28.19,
+GFIM,177,Fail,09.30.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+GFIM,178,Fail,09.19.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+GFIM,179,Fail,07.13.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+GFIM,180,Pass,05.08.19,
+GFIM,181,Pass,09.27.19,
+GFIM,182,Pass,04.08.19,
+GFIM,183,Fail,07.14.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+GFIM,184,Fail,07.02.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+GFIM,185,Fail,05.11.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+GFIM,186,Pass,06.23.19,
+GFIM,187,Fail,05.02.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+GFIM,188,Fail,08.15.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+GFIM,189,Pass,04.28.19,
+GFIM,190,Pass,05.05.19,
+PRS,1,Pass,05.20.19,
+PRS,2,Fail,07.21.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+PRS,3,Pass,08.21.19,
+PRS,4,Pass,09.04.19,
+PRS,5,Pass,09.20.19,
+PRS,6,Pass,04.11.19,
+PRS,7,Pass,04.02.19,
+PRS,8,Fail,09.29.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+PRS,9,Pass,05.29.19,
+PRS,10,Fail,06.16.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+PRS,11,Pass,09.01.19,
+PRS,12,Pass,05.10.19,
+PRS,13,Pass,08.01.19,
+PRS,14,Pass,04.12.19,
+PRS,15,Fail,08.10.19,PROD2.0|for i in n:|i++|looping
+PRS,16,Pass,08.21.19,
+PRS,17,Fail,05.18.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+PRS,18,Pass,05.13.19,
+PRS,19,Fail,04.02.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+PRS,20,Fail,09.15.19,UAT2.0|while i>6|i<5|validation
+PRS,21,Pass,06.01.19,
+PRS,22,Fail,09.22.19,DEV2.0| print(balance)|balance=np.nan| printing
+PRS,23,Fail,07.23.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+PRS,24,Fail,04.30.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+PRS,25,Pass,08.01.19,
+PRS,26,Pass,08.05.19,
+PRS,27,Pass,04.15.19,
+PRS,28,Fail,05.31.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+PRS,29,Pass,07.27.19,
+PRS,30,Pass,04.04.19,
+PRS,31,Pass,07.08.19,
+PRS,32,Fail,04.08.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+PRS,33,Fail,04.10.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+PRS,34,Pass,04.03.19,
+PRS,35,Pass,04.12.19,
+PRS,36,Fail,05.29.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+PRS,37,Fail,09.28.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+PRS,38,Fail,04.19.19,STG2.0| if i>5 |i=6 |decision control
+PRS,39,Fail,08.07.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+PRS,40,Pass,09.15.19,
+PRS,41,Fail,07.06.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+PRS,42,Pass,09.12.19,
+PRS,43,Pass,09.19.19,
+PRS,44,Pass,04.12.19,
+PRS,45,Fail,07.11.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+PRS,46,Pass,07.25.19,
+PRS,47,Fail,04.10.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+PRS,48,Fail,06.01.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+PRS,49,Fail,06.15.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+PRS,50,Fail,04.11.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+PRS,51,Fail,05.15.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+PRS,52,Fail,06.27.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+PRS,53,Fail,08.15.19,DEV2.0|print(a)|a=transaction.address|retrive data
+PRS,54,Fail,04.30.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+PRS,55,Pass,08.03.19,
+PRS,56,Pass,06.01.19,
+PRS,57,Pass,04.07.19,
+PRS,58,Fail,09.25.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+PRS,59,Fail,09.09.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+PRS,60,Pass,07.30.19,
+PRS,61,Fail,09.22.19,UAT2.0|if i<8|i=0|decision control
+PRS,62,Pass,09.27.19,
+PRS,63,Pass,07.31.19,
+PRS,64,Fail,09.03.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+PRS,65,Fail,08.01.19,STG2.0|while var >! 0:  |var=balance|validation
+PRS,66,Pass,08.22.19,
+PRS,67,Pass,08.13.19,
+PRS,68,Pass,06.19.19,
+PRS,69,Fail,05.11.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+PRS,70,Fail,08.18.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+PRS,71,Pass,05.29.19,
+PRS,72,Fail,07.29.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+PRS,73,Fail,09.19.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+PRS,74,Pass,06.22.19,
+PRS,75,Pass,05.25.19,
+PRS,76,Pass,06.12.19,
+PRS,77,Fail,06.06.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+PRS,78,Fail,06.22.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+PRS,79,Fail,05.17.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+PRS,80,Fail,08.27.19,UAT2.0|if i<8|i=0|decision control
+PRS,81,Fail,07.07.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+PRS,82,Pass,04.08.19,
+PRS,83,Pass,08.29.19,
+PRS,84,Fail,04.03.19,PROD2.0|for i in n:|i++|looping
+PRS,85,Pass,05.27.19,
+PRS,86,Pass,09.08.19,
+PRS,87,Pass,09.21.19,
+PRS,88,Pass,09.27.19,
+PRS,89,Fail,07.21.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+PRS,90,Pass,07.12.19,
+PRS,91,Fail,07.19.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+PRS,92,Fail,05.10.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+PRS,93,Fail,05.19.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+PRS,94,Fail,08.05.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+PRS,95,Fail,05.01.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+PRS,96,Fail,09.24.19,PROD2.0|for i in n:|i++|looping
+PRS,97,Pass,07.20.19,
+PRS,98,Fail,05.01.19,UAT2.0|while i>6|i<5|validation
+PRS,99,Pass,09.16.19,
+PRS,100,Fail,04.19.19,UAT2.0|if i>z|i=z|decision control
+PRS,101,Pass,08.16.19,
+PRS,102,Fail,04.19.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+PRS,103,Pass,04.29.19,
+PRS,104,Pass,04.04.19,
+PRS,105,Pass,08.22.19,
+PRS,106,Fail,09.06.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+PRS,107,Fail,08.10.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+PRS,108,Pass,07.19.19,
+PRS,109,Fail,06.15.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+PRS,110,Fail,04.14.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+PRS,111,Fail,04.27.19,UAT2.0|while i>6|i<5|validation
+PRS,112,Fail,05.04.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+PRS,113,Fail,08.24.19,PROD2.0|for i in n:|i++|looping
+PRS,114,Pass,09.10.19,
+PRS,115,Pass,09.11.19,
+PRS,116,Pass,04.22.19,
+PRS,117,Pass,07.08.19,
+PRS,118,Fail,07.08.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+PRS,119,Pass,06.23.19,
+PRS,120,Pass,09.02.19,
+PRS,121,Pass,07.24.19,
+PRS,122,Pass,04.09.19,
+PRS,123,Pass,04.25.19,
+PRS,124,Pass,04.25.19,
+PRS,125,Pass,07.18.19,
+PRS,126,Pass,09.28.19,
+PRS,127,Pass,09.30.19,
+PRS,128,Fail,04.06.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+PRS,129,Pass,06.14.19,
+PRS,130,Fail,09.15.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+PRS,131,Fail,05.03.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+PRS,132,Pass,05.20.19,
+PRS,133,Pass,06.24.19,
+PRS,134,Pass,08.03.19,
+PRS,135,Fail,08.27.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+PRS,136,Pass,04.21.19,
+PRS,137,Fail,08.29.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+PRS,138,Pass,09.04.19,
+PRS,139,Pass,09.03.19,
+PRS,140,Fail,04.11.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+PRS,141,Fail,05.21.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+PRS,142,Fail,09.13.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+PRS,143,Fail,05.17.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+PRS,144,Fail,04.26.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+PRS,145,Fail,06.30.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+PRS,146,Fail,04.27.19,UAT2.0|if i<8|i=0|decision control
+PRS,147,Fail,08.16.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+PRS,148,Fail,08.17.19,STG2.0|while var >! 0:  |var=balance|validation
+PRS,149,Fail,06.15.19,UAT2.0|if i<8|i=0|decision control
+PRS,150,Pass,08.24.19,
+PRS,151,Fail,08.30.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+PRS,152,Pass,08.08.19,
+PRS,153,Fail,06.22.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+PRS,154,Fail,04.01.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+PRS,155,Pass,07.19.19,
+PRS,156,Pass,06.12.19,
+PRS,157,Pass,05.14.19,
+PRS,158,Fail,04.11.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+PRS,159,Pass,07.28.19,
+PRS,160,Fail,07.18.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+PRS,161,Fail,09.25.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+PRS,162,Fail,04.08.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+PRS,163,Pass,07.30.19,
+PRS,164,Pass,06.02.19,
+PRS,165,Fail,05.12.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+PRS,166,Fail,05.12.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+PRS,167,Pass,09.28.19,
+PRS,168,Pass,09.04.19,
+PRS,169,Pass,07.05.19,
+PRS,170,Fail,05.21.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+PRS,171,Fail,05.27.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+PRS,172,Fail,05.24.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+PRS,173,Fail,08.24.19,STG2.0|while var >! 0:  |var=balance|validation
+PRS,174,Fail,09.18.19,PROD2.0|for i in n:|i++|looping
+WFM,1,Fail,05.26.19,UAT2.0|while i>6|i<5|validation
+WFM,2,Fail,09.19.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+WFM,3,Fail,06.16.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+WFM,4,Fail,08.11.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+WFM,5,Pass,04.01.19,
+WFM,6,Fail,05.27.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+WFM,7,Fail,04.25.19,UAT2.0|if i>z|i=z|decision control
+WFM,8,Fail,08.16.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+WFM,9,Fail,06.16.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+WFM,10,Fail,07.28.19,UAT2.0|if i<8|i=0|decision control
+WFM,11,Fail,05.04.19,DEV2.0| print(balance)|balance=np.nan| printing
+WFM,12,Fail,07.18.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+WFM,13,Fail,06.04.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+WFM,14,Pass,08.14.19,
+WFM,15,Fail,08.08.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+WFM,16,Fail,08.15.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+WFM,17,Fail,09.23.19,UAT2.0|if i>z|i=z|decision control
+WFM,18,Fail,05.22.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+WFM,19,Fail,08.24.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+WFM,20,Pass,06.20.19,
+WFM,21,Fail,07.24.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+WFM,22,Fail,09.24.19,"STG2.0|for i in Age|i={name,age}|looping"
+WFM,23,Pass,07.25.19,
+WFM,24,Pass,04.16.19,
+WFM,25,Fail,08.23.19,UAT2.0|if i>z|i=z|decision control
+WFM,26,Pass,05.10.19,
+WFM,27,Fail,07.02.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+WFM,28,Pass,06.04.19,
+WFM,29,Fail,07.03.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+WFM,30,Pass,09.10.19,
+WFM,31,Pass,06.21.19,
+WFM,32,Fail,09.17.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+WFM,33,Pass,04.27.19,
+WFM,34,Fail,05.28.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+WFM,35,Fail,06.08.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+WFM,36,Fail,07.12.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+WFM,37,Pass,08.24.19,
+WFM,38,Fail,09.06.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+WFM,39,Pass,04.30.19,
+WFM,40,Fail,07.02.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+WFM,41,Pass,09.20.19,
+WFM,42,Fail,09.20.19,UAT2.0|while i>6|i<5|validation
+WFM,43,Fail,07.09.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+WFM,44,Fail,05.28.19,PROD2.0|for i in n:|i++|looping
+WFM,45,Fail,05.23.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+WFM,46,Pass,04.29.19,
+WFM,47,Pass,08.24.19,
+WFM,48,Pass,04.14.19,
+WFM,49,Pass,04.19.19,
+WFM,50,Pass,07.31.19,
+WFM,51,Pass,06.21.19,
+WFM,52,Fail,09.14.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+WFM,53,Pass,08.16.19,
+WFM,54,Fail,09.27.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+WFM,55,Fail,08.03.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+WFM,56,Pass,08.29.19,
+WFM,57,Pass,09.21.19,
+WFM,58,Pass,09.19.19,
+WFM,59,Pass,07.14.19,
+WFM,60,Pass,08.18.19,
+WFM,61,Pass,06.18.19,
+WFM,62,Pass,06.05.19,
+WFM,63,Fail,09.06.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+WFM,64,Fail,06.13.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+WFM,65,Pass,08.05.19,
+WFM,66,Fail,04.30.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+WFM,67,Pass,08.25.19,
+WFM,68,Pass,05.22.19,
+WFM,69,Pass,04.14.19,
+WFM,70,Fail,07.16.19,PROD2.0|for i in n:|i++|looping
+WFM,71,Fail,04.20.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+WFM,72,Fail,05.03.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+WFM,73,Pass,04.11.19,
+WFM,74,Pass,04.09.19,
+WFM,75,Fail,09.06.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+WFM,76,Fail,08.07.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+WFM,77,Fail,05.12.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+WFM,78,Pass,06.23.19,
+WFM,79,Fail,06.21.19,DEV2.0|print(a)|a=transaction.address|retrive data
+WFM,80,Fail,05.25.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+WFM,81,Pass,05.26.19,
+WFM,82,Fail,04.06.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+WFM,83,Fail,07.02.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+WFM,84,Pass,07.30.19,
+WFM,85,Fail,04.30.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+WFM,86,Pass,04.08.19,
+WFM,87,Pass,08.13.19,
+WFM,88,Fail,08.02.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+WFM,89,Fail,07.31.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+WFM,90,Pass,08.28.19,
+WFM,91,Pass,04.23.19,
+WFM,92,Fail,08.21.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+WFM,93,Fail,09.19.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+WFM,94,Fail,07.27.19,STG2.0| if i>5 |i=6 |decision control
+WFM,95,Pass,05.05.19,
+WFM,96,Pass,05.06.19,
+WFM,97,Fail,07.02.19,"STG2.0|for i in Age|i={name,age}|looping"
+WFM,98,Pass,06.08.19,
+WFM,99,Pass,05.13.19,
+WFM,100,Pass,09.05.19,
+WFM,101,Fail,07.06.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+WFM,102,Fail,09.29.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+WFM,103,Fail,06.13.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+WFM,104,Pass,07.18.19,
+WFM,105,Fail,09.16.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+WFM,106,Pass,09.28.19,
+WFM,107,Fail,04.20.19,PROD2.0|for i in n:|i++|looping
+WFM,108,Fail,05.17.19,STG2.0|while var >! 0:  |var=balance|validation
+WFM,109,Fail,09.28.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+WFM,110,Pass,04.09.19,
+WFM,111,Fail,07.20.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+WFM,112,Fail,06.24.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+WFM,113,Fail,06.07.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+WFM,114,Fail,05.16.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+WFM,115,Pass,06.28.19,
+WFM,116,Fail,05.25.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+WFM,117,Pass,08.09.19,
+WFM,118,Fail,05.12.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+WFM,119,Fail,06.03.19,DEV2.0| print(balance)|balance=np.nan| printing
+WFM,120,Fail,09.22.19,DEV2.0|print(a)|a=transaction.address|retrive data
+WFM,121,Fail,07.10.19,STG2.0|print(bal)|bal=np.nan|printing
+WFM,122,Pass,07.23.19,
+WFM,123,Fail,04.12.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+WFM,124,Fail,05.28.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+WFM,125,Pass,08.08.19,
+WFM,126,Fail,08.09.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+WFM,127,Fail,05.09.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+WFM,128,Fail,04.06.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+WFM,129,Pass,08.09.19,
+WFM,130,Pass,05.10.19,
+WFM,131,Pass,09.30.19,
+WFM,132,Fail,05.28.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+WFM,133,Pass,04.01.19,
+WFM,134,Fail,04.08.19,PROD2.0|for i in n:|i++|looping
+WFM,135,Pass,04.03.19,
+WFM,136,Fail,07.13.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+WFM,137,Fail,07.28.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+WFM,138,Pass,07.03.19,
+WFM,139,Fail,07.05.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+WFM,140,Pass,06.11.19,
+WFM,141,Fail,04.17.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+WFM,142,Fail,04.20.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+WFM,143,Pass,06.05.19,
+WFM,144,Pass,07.19.19,
+WFM,145,Fail,09.15.19,UAT2.0|while i>6|i<5|validation
+WFM,146,Pass,08.10.19,
+WFM,147,Fail,07.01.19,STG2.0|print(bal)|bal=np.nan|printing
+WFM,148,Pass,09.20.19,
+WFM,149,Fail,08.07.19,STG2.0|print(bal)|bal=np.nan|printing
+WFM,150,Pass,07.05.19,
+WFM,151,Pass,05.29.19,
+WFM,152,Fail,05.20.19,STG2.0|print(bal)|bal=np.nan|printing
+WFM,153,Pass,09.28.19,
+WFM,154,Fail,07.15.19,STG2.0| if i>5 |i=6 |decision control
+WFM,155,Fail,05.05.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+WFM,156,Fail,06.13.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+WFM,157,Fail,05.16.19,"STG2.0|for i in Age|i={name,age}|looping"
+WFM,158,Pass,08.30.19,
+WFM,159,Pass,04.15.19,
+WFM,160,Fail,06.11.19,STG2.0| if i>5 |i=6 |decision control
+WFM,161,Fail,06.07.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+WFM,162,Pass,06.12.19,
+WFM,163,Pass,09.12.19,
+WFM,164,Pass,08.03.19,
+WFM,165,Pass,05.23.19,
+WFM,166,Pass,05.13.19,
+WFM,167,Fail,04.10.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+WFM,168,Fail,06.06.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+WFM,169,Fail,05.21.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+WFM,170,Fail,08.31.19,DEV2.0|print(a)|a=transaction.address|retrive data
+WFM,171,Fail,04.01.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+WFM,172,Pass,04.22.19,
+WFM,173,Fail,08.08.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+WFM,174,Pass,05.14.19,
+WFM,175,Pass,08.17.19,
+WFM,176,Fail,09.16.19,UAT2.0|if i<8|i=0|decision control
+WFM,177,Fail,08.17.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+WFM,178,Pass,09.04.19,
+WFM,179,Pass,05.07.19,
+WFM,180,Fail,08.24.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+WFM,181,Pass,06.06.19,
+WFM,182,Fail,06.30.19,PROD2.0|for i in n:|i++|looping
+WFM,183,Pass,09.20.19,
+WFM,184,Fail,08.06.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+WFM,185,Fail,04.06.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+WFM,186,Pass,05.13.19,
+WFM,187,Fail,04.11.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+WFM,188,Fail,04.01.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+WFM,189,Fail,08.09.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+WFM,190,Pass,06.04.19,
+WFM,191,Fail,06.17.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+WFM,192,Fail,08.01.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+WFM,193,Pass,07.31.19,
+WFM,194,Fail,08.04.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+WFM,195,Fail,09.01.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+WFM,196,Pass,07.10.19,
+COEA,1,Pass,09.12.19,
+COEA,2,Pass,08.13.19,
+COEA,3,Fail,04.26.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+COEA,4,Pass,04.19.19,
+COEA,5,Pass,07.26.19,
+COEA,6,Pass,06.18.19,
+COEA,7,Pass,09.03.19,
+COEA,8,Fail,04.04.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+COEA,9,Fail,06.28.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+COEA,10,Fail,04.06.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+COEA,11,Pass,09.12.19,
+COEA,12,Pass,05.05.19,
+COEA,13,Fail,08.28.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+COEA,14,Pass,07.13.19,
+COEA,15,Fail,07.04.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+COEA,16,Pass,08.30.19,
+COEA,17,Fail,04.29.19,STG2.0|while var >! 0:  |var=balance|validation
+COEA,18,Fail,05.07.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+COEA,19,Pass,05.23.19,
+COEA,20,Pass,06.07.19,
+COEA,21,Pass,09.07.19,
+COEA,22,Pass,07.30.19,
+COEA,23,Fail,08.25.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+COEA,24,Pass,06.26.19,
+COEA,25,Pass,07.30.19,
+COEA,26,Fail,06.11.19,DEV2.0| print(balance)|balance=np.nan| printing
+COEA,27,Fail,05.29.19,UAT2.0|if i>z|i=z|decision control
+COEA,28,Pass,07.19.19,
+COEA,29,Pass,09.25.19,
+COEA,30,Fail,05.18.19,DEV2.0| print(balance)|balance=np.nan| printing
+COEA,31,Pass,07.10.19,
+COEA,32,Fail,05.15.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+COEA,33,Fail,07.04.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+COEA,34,Pass,04.24.19,
+COEA,35,Fail,04.21.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+COEA,36,Pass,06.10.19,
+COEA,37,Fail,09.06.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+COEA,38,Fail,09.01.19,STG2.0| if i>5 |i=6 |decision control
+COEA,39,Pass,06.01.19,
+COEA,40,Pass,06.01.19,
+COEA,41,Fail,08.24.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+COEA,42,Pass,06.03.19,
+COEA,43,Pass,04.12.19,
+COEA,44,Fail,07.27.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+COEA,45,Fail,05.01.19,UAT2.0|while i>6|i<5|validation
+COEA,46,Pass,09.05.19,
+COEA,47,Pass,08.25.19,
+COEA,48,Fail,07.24.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+COEA,49,Fail,07.24.19,UAT2.0|while i>6|i<5|validation
+COEA,50,Fail,08.02.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+COEA,51,Fail,08.05.19,STG2.0|print(bal)|bal=np.nan|printing
+COEA,52,Fail,04.11.19,DEV2.0| print(balance)|balance=np.nan| printing
+COEA,53,Pass,06.09.19,
+COEA,54,Fail,04.14.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+COEA,55,Pass,05.03.19,
+COEA,56,Fail,06.11.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+COEA,57,Fail,09.29.19,"STG2.0|for i in Age|i={name,age}|looping"
+COEA,58,Fail,08.23.19,UAT2.0|if i>z|i=z|decision control
+COEA,59,Fail,09.20.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+COEA,60,Pass,06.20.19,
+COEA,61,Pass,05.31.19,
+COEA,62,Fail,05.18.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+COEA,63,Pass,08.17.19,
+COEA,64,Pass,09.29.19,
+COEA,65,Fail,04.10.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+COEA,66,Fail,09.21.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+COEA,67,Pass,07.23.19,
+COEA,68,Fail,07.07.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+COEA,69,Pass,04.30.19,
+COEA,70,Pass,06.27.19,
+COEA,71,Pass,09.10.19,
+COEA,72,Pass,07.07.19,
+COEA,73,Fail,06.14.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+COEA,74,Pass,09.02.19,
+COEA,75,Fail,08.28.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+COEA,76,Fail,06.02.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+COEA,77,Pass,04.24.19,
+COEA,78,Pass,05.29.19,
+COEA,79,Fail,09.24.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+COEA,80,Fail,05.29.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+COEA,81,Fail,08.01.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+COEA,82,Pass,06.04.19,
+COEA,83,Fail,04.02.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+COEA,84,Fail,06.15.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+COEA,85,Fail,06.11.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+COEA,86,Fail,09.14.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+COEA,87,Pass,08.28.19,
+COEA,88,Pass,08.18.19,
+COEA,89,Fail,05.01.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+COEA,90,Pass,04.29.19,
+COEA,91,Fail,06.15.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+COEA,92,Pass,07.23.19,
+COEA,93,Pass,06.20.19,
+COEA,94,Fail,05.29.19,STG2.0|print(bal)|bal=np.nan|printing
+COEA,95,Fail,08.22.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+COEA,96,Pass,08.03.19,
+COEA,97,Fail,06.23.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+COEA,98,Pass,04.15.19,
+COEA,99,Pass,04.27.19,
+COEA,100,Pass,06.25.19,
+COEA,101,Fail,08.11.19,DEV2.0| print(balance)|balance=np.nan| printing
+COEA,102,Pass,05.25.19,
+COEA,103,Fail,07.29.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+COEA,104,Fail,08.03.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+COEA,105,Fail,07.25.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+COEA,106,Pass,04.24.19,
+COEA,107,Fail,04.06.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+COEA,108,Pass,04.05.19,
+COEA,109,Pass,07.27.19,
+COEA,110,Fail,09.28.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+COEA,111,Fail,08.22.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+COEA,112,Pass,07.03.19,
+COEA,113,Fail,06.23.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+COEA,114,Fail,08.25.19,UAT2.0|if i<8|i=0|decision control
+COEA,115,Pass,05.09.19,
+COEA,116,Pass,06.27.19,
+COEA,117,Pass,04.12.19,
+COEA,118,Fail,05.15.19,UAT2.0|if i<8|i=0|decision control
+COEA,119,Pass,05.09.19,
+COEA,120,Pass,06.18.19,
+COEA,121,Pass,04.02.19,
+COEA,122,Pass,08.25.19,
+COEA,123,Pass,05.04.19,
+COEA,124,Pass,08.12.19,
+COEA,125,Pass,08.02.19,
+COEA,126,Fail,05.04.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+COEA,127,Fail,05.22.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+COEA,128,Fail,09.24.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+COEA,129,Pass,09.02.19,
+COEA,130,Pass,09.25.19,
+COEA,131,Fail,06.04.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+COEA,132,Fail,04.27.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+COEA,133,Pass,05.27.19,
+COEA,134,Fail,04.30.19,UAT2.0|if i<8|i=0|decision control
+COEA,135,Fail,09.24.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+COEA,136,Pass,06.29.19,
+COEA,137,Pass,04.23.19,
+COEA,138,Pass,06.27.19,
+COEA,139,Fail,07.05.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+COEA,140,Pass,09.26.19,
+COEA,141,Fail,06.30.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+COEA,142,Fail,07.27.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+COEA,143,Pass,06.10.19,
+COEA,144,Fail,07.02.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+COEA,145,Fail,05.27.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+COEA,146,Fail,07.10.19,STG2.0|print(bal)|bal=np.nan|printing
+COEA,147,Fail,05.03.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+COEA,148,Pass,09.23.19,
+COEA,149,Pass,04.28.19,
+COEA,150,Pass,08.30.19,
+COEA,151,Fail,05.07.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+COEA,152,Fail,07.10.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+COEA,153,Pass,09.15.19,
+COEA,154,Fail,05.02.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+COEA,155,Fail,09.23.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+COEA,156,Pass,08.02.19,
+COEA,157,Fail,09.11.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+COEA,158,Fail,04.20.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+COEA,159,Pass,07.16.19,
+COEA,160,Fail,05.03.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+COEA,161,Fail,07.09.19,UAT2.0|if i<8|i=0|decision control
+COEA,162,Fail,09.10.19,STG2.0|while var >! 0:  |var=balance|validation
+COEA,163,Pass,09.13.19,
+COEA,164,Pass,09.28.19,
+COEA,165,Fail,05.09.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+COEA,166,Fail,07.19.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+COEA,167,Pass,04.03.19,
+COEA,168,Fail,04.02.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+COEA,169,Fail,04.02.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+COEA,170,Pass,04.02.19,
+COEA,171,Fail,04.09.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+COEA,172,Fail,09.05.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+COEA,173,Fail,09.17.19,PROD2.0|for i in n:|i++|looping
+COEA,174,Fail,07.05.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+COEA,175,Fail,04.17.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+COEA,176,Pass,08.08.19,
+COEA,177,Fail,05.31.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+COEA,178,Pass,09.21.19,
+COEA,179,Pass,08.27.19,
+COEA,180,Fail,05.12.19,PROD2.0|for i in n:|i++|looping
+COEA,181,Fail,07.13.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+COEA,182,Pass,05.03.19,
+COEA,183,Fail,06.03.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+COEA,184,Pass,04.03.19,
+COEA,185,Pass,04.30.19,
+COEA,186,Pass,05.21.19,
+COEA,187,Pass,05.12.19,
+COEA,188,Fail,07.29.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+COEA,189,Pass,08.24.19,
+COEA,190,Fail,04.15.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+COEA,191,Fail,06.23.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+COEA,192,Fail,09.23.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+COEA,193,Pass,08.23.19,
+COEA,194,Fail,06.25.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+COEA,195,Fail,09.13.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+COEA,196,Pass,08.11.19,
+COEA,197,Pass,07.22.19,
+COEA,198,Pass,05.08.19,
+COEA,199,Pass,07.11.19,
+COEA,200,Pass,05.13.19,
+COEA,201,Pass,09.11.19,
+COEA,202,Fail,06.17.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+COEA,203,Pass,07.06.19,
+COEA,204,Pass,04.03.19,
+COEA,205,Fail,06.05.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+vATOM,1,Fail,06.27.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+vATOM,2,Pass,04.19.19,
+vATOM,3,Pass,07.11.19,
+vATOM,4,Fail,07.25.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+vATOM,5,Fail,05.16.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+vATOM,6,Pass,09.28.19,
+vATOM,7,Fail,08.05.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+vATOM,8,Fail,08.29.19,STG2.0|while var >! 0:  |var=balance|validation
+vATOM,9,Fail,04.03.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+vATOM,10,Fail,07.06.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+vATOM,11,Pass,04.19.19,
+vATOM,12,Pass,07.08.19,
+vATOM,13,Pass,08.24.19,
+vATOM,14,Fail,08.15.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+vATOM,15,Pass,06.16.19,
+vATOM,16,Pass,07.14.19,
+vATOM,17,Pass,05.06.19,
+vATOM,18,Pass,04.27.19,
+vATOM,19,Pass,09.27.19,
+vATOM,20,Fail,05.21.19,STG2.0|while var >! 0:  |var=balance|validation
+vATOM,21,Pass,05.13.19,
+vATOM,22,Pass,05.01.19,
+vATOM,23,Pass,05.05.19,
+vATOM,24,Fail,07.08.19,STG2.0|print(bal)|bal=np.nan|printing
+vATOM,25,Fail,08.09.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+vATOM,26,Fail,07.29.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+vATOM,27,Fail,05.16.19,UAT2.0|if i>z|i=z|decision control
+vATOM,28,Pass,07.01.19,
+vATOM,29,Pass,08.31.19,
+vATOM,30,Pass,04.25.19,
+vATOM,31,Pass,05.12.19,
+vATOM,32,Pass,07.03.19,
+vATOM,33,Fail,08.30.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+vATOM,34,Fail,05.03.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+vATOM,35,Pass,05.03.19,
+vATOM,36,Pass,09.06.19,
+vATOM,37,Pass,04.08.19,
+vATOM,38,Fail,09.16.19,"STG2.0|for i in Age|i={name,age}|looping"
+vATOM,39,Pass,09.18.19,
+vATOM,40,Pass,06.13.19,
+vATOM,41,Pass,08.26.19,
+vATOM,42,Fail,08.31.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+vATOM,43,Pass,04.16.19,
+vATOM,44,Pass,07.21.19,
+vATOM,45,Pass,05.06.19,
+vATOM,46,Pass,06.25.19,
+vATOM,47,Fail,05.07.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+vATOM,48,Fail,05.25.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+vATOM,49,Pass,04.07.19,
+vATOM,50,Pass,08.14.19,
+vATOM,51,Pass,06.15.19,
+vATOM,52,Pass,08.20.19,
+vATOM,53,Pass,07.15.19,
+vATOM,54,Fail,04.04.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+vATOM,55,Pass,04.23.19,
+vATOM,56,Pass,09.24.19,
+vATOM,57,Pass,07.06.19,
+vATOM,58,Fail,07.04.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+vATOM,59,Fail,09.26.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+vATOM,60,Fail,06.15.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+vATOM,61,Pass,06.02.19,
+vATOM,62,Pass,08.23.19,
+vATOM,63,Fail,07.04.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+vATOM,64,Fail,09.22.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+vATOM,65,Pass,08.22.19,
+vATOM,66,Fail,07.11.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+vATOM,67,Fail,06.15.19,"STG2.0|for i in Age|i={name,age}|looping"
+vATOM,68,Fail,08.04.19,UAT2.0|while i>6|i<5|validation
+vATOM,69,Fail,04.04.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+vATOM,70,Pass,09.01.19,
+vATOM,71,Pass,04.21.19,
+vATOM,72,Pass,07.17.19,
+vATOM,73,Fail,07.24.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+vATOM,74,Fail,05.03.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+vATOM,75,Pass,08.29.19,
+vATOM,76,Pass,06.08.19,
+vATOM,77,Pass,06.21.19,
+vATOM,78,Pass,07.03.19,
+vATOM,79,Pass,05.06.19,
+vATOM,80,Fail,08.12.19,UAT2.0|if i>z|i=z|decision control
+vATOM,81,Pass,04.09.19,
+vATOM,82,Fail,09.24.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+vATOM,83,Pass,09.13.19,
+vATOM,84,Pass,05.20.19,
+vATOM,85,Pass,07.16.19,
+vATOM,86,Fail,05.18.19,"STG2.0|for i in Age|i={name,age}|looping"
+vATOM,87,Pass,05.07.19,
+vATOM,88,Pass,05.15.19,
+vATOM,89,Pass,08.27.19,
+vATOM,90,Fail,06.04.19,DEV2.0|print(a)|a=transaction.address|retrive data
+vATOM,91,Pass,05.13.19,
+vATOM,92,Fail,07.04.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+vATOM,93,Fail,09.25.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+vATOM,94,Pass,07.13.19,
+vATOM,95,Pass,08.10.19,
+vATOM,96,Fail,09.20.19,UAT2.0|if i>z|i=z|decision control
+vATOM,97,Pass,04.13.19,
+vATOM,98,Pass,06.28.19,
+vATOM,99,Fail,04.04.19,UAT2.0|while i>6|i<5|validation
+vATOM,100,Pass,04.11.19,
+vATOM,101,Pass,04.05.19,
+vATOM,102,Fail,08.11.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+vATOM,103,Pass,07.29.19,
+vATOM,104,Fail,06.15.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+vATOM,105,Pass,04.29.19,
+vATOM,106,Pass,04.18.19,
+vATOM,107,Pass,04.20.19,
+vATOM,108,Pass,07.20.19,
+vATOM,109,Pass,07.21.19,
+vATOM,110,Fail,05.28.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+vATOM,111,Pass,06.01.19,
+vATOM,112,Pass,09.12.19,
+vATOM,113,Fail,05.21.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+vATOM,114,Fail,08.23.19,STG2.0|while var >! 0:  |var=balance|validation
+vATOM,115,Pass,07.01.19,
+vATOM,116,Fail,04.01.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+vATOM,117,Fail,09.30.19,DEV2.0|print(a)|a=transaction.address|retrive data
+vATOM,118,Pass,04.08.19,
+vATOM,119,Fail,06.29.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+vATOM,120,Pass,06.04.19,
+vATOM,121,Fail,07.26.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+vATOM,122,Pass,07.03.19,
+vATOM,123,Pass,06.23.19,
+vATOM,124,Fail,06.25.19,STG2.0|print(bal)|bal=np.nan|printing
+vATOM,125,Pass,09.14.19,
+vATOM,126,Fail,08.20.19,DEV2.0| print(balance)|balance=np.nan| printing
+vATOM,127,Pass,07.14.19,
+vATOM,128,Fail,05.11.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+vATOM,129,Fail,04.04.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+vATOM,130,Pass,08.04.19,
+vATOM,131,Pass,06.12.19,
+vATOM,132,Fail,08.29.19,UAT2.0|while i>6|i<5|validation
+vATOM,133,Fail,07.09.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+vATOM,134,Fail,05.11.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+vATOM,135,Pass,04.16.19,
+vATOM,136,Pass,04.16.19,
+vATOM,137,Fail,05.28.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+vATOM,138,Pass,08.08.19,
+vATOM,139,Fail,05.29.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+vATOM,140,Fail,06.22.19,UAT2.0|if i>z|i=z|decision control
+vATOM,141,Pass,06.10.19,
+vATOM,142,Pass,08.31.19,
+vATOM,143,Fail,05.13.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+vATOM,144,Pass,05.29.19,
+vATOM,145,Pass,09.17.19,
+vATOM,146,Fail,08.07.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+vATOM,147,Pass,06.26.19,
+vATOM,148,Fail,08.09.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+vATOM,149,Pass,06.12.19,
+vATOM,150,Pass,09.28.19,
+vATOM,151,Pass,06.20.19,
+vATOM,152,Fail,09.16.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+vATOM,153,Pass,08.25.19,
+vATOM,154,Fail,04.08.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+vATOM,155,Fail,09.28.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+vATOM,156,Pass,07.25.19,
+vATOM,157,Fail,05.22.19,"STG2.0|for i in Age|i={name,age}|looping"
+vATOM,158,Pass,05.28.19,
+vATOM,159,Fail,06.20.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+vATOM,160,Fail,09.05.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+vATOM,161,Fail,09.02.19,PROD2.0|for i in n:|i++|looping
+vATOM,162,Fail,05.16.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+vATOM,163,Pass,04.18.19,
+vATOM,164,Fail,08.24.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+vATOM,165,Pass,05.31.19,
+vATOM,166,Fail,04.19.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+vATOM,167,Pass,07.30.19,
+vATOM,168,Pass,06.22.19,
+vATOM,169,Fail,04.10.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+vATOM,170,Pass,08.23.19,
+vATOM,171,Fail,05.05.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+vATOM,172,Fail,07.01.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+vATOM,173,Pass,09.26.19,
+vATOM,174,Fail,06.20.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+vATOM,175,Fail,09.01.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+vATOM,176,Fail,08.08.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+vATOM,177,Fail,06.10.19,UAT2.0|values=list(names)|names=set(names.keys)|retriving
+vATOM,178,Pass,08.03.19,
+vATOM,179,Pass,06.18.19,
+vATOM,180,Fail,08.03.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+vATOM,181,Pass,08.27.19,
+vATOM,182,Pass,05.11.19,
+vATOM,183,Fail,06.23.19,STG2.0|print(bal)|bal=np.nan|printing
+vATOM,184,Fail,07.21.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+vATOM,185,Pass,09.30.19,
+vATOM,186,Pass,07.06.19,
+vATOM,187,Pass,09.11.19,
+vATOM,188,Fail,07.21.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+vATOM,189,Fail,06.22.19,"STG2.0|for i in Age|i={name,age}|looping"
+vATOM,190,Pass,04.25.19,
+vATOM,191,Fail,06.02.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+vATOM,192,Pass,09.20.19,
+vATOM,193,Fail,05.24.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+vATOM,194,Pass,08.15.19,
+vATOM,195,Pass,04.28.19,
+vATOM,196,Pass,06.30.19,
+vATOM,197,Pass,08.03.19,
+vATOM,198,Pass,04.06.19,
+vATOM,199,Pass,08.28.19,
+vATOM,200,Fail,05.07.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+vATOM,201,Pass,06.01.19,
+vATOM,202,Fail,07.03.19,DEV2.0|print(a)|a=transaction.address|retrive data
+vATOM,203,Pass,09.18.19,
+vATOM,204,Fail,07.18.19,UAT2.0|if i>z|i=z|decision control
+vATOM,205,Fail,04.07.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+vATOM,206,Pass,05.09.19,
+vATOM,207,Pass,06.20.19,
+vATOM,208,Pass,07.23.19,
+vATOM,209,Fail,05.03.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+vATOM,210,Fail,06.14.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+vATOM,211,Pass,04.08.19,
+vATOM,212,Fail,06.13.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+vATOM,213,Pass,09.13.19,
+vATOM,214,Pass,05.25.19,
+vATOM,215,Fail,04.08.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+vATOM,216,Pass,08.02.19,
+vATOM,217,Fail,08.11.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+vATOM,218,Pass,08.05.19,
+vATOM,219,Fail,05.13.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+vATOM,220,Fail,08.22.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+vATOM,221,Pass,08.13.19,
+vATOM,222,Fail,09.23.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+vATOM,223,Pass,07.24.19,
+DNM,1,Fail,06.20.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+DNM,2,Pass,05.01.19,
+DNM,3,Fail,06.10.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+DNM,4,Fail,04.08.19,STG2.0|while var >! 0:  |var=balance|validation
+DNM,5,Pass,08.31.19,
+DNM,6,Pass,07.05.19,
+DNM,7,Pass,04.29.19,
+DNM,8,Fail,06.14.19,DEV2.0|print(a)|a=transaction.address|retrive data
+DNM,9,Fail,09.26.19,STG2.0| if i>5 |i=6 |decision control
+DNM,10,Fail,07.11.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+DNM,11,Fail,08.08.19,UAT2.0|while i>6|i<5|validation
+DNM,12,Fail,05.05.19,STG2.0|print(bal)|bal=np.nan|printing
+DNM,13,Pass,08.11.19,
+DNM,14,Fail,05.01.19,"DEV2.0|plt.show(a,d)|a,d=(df.keys,df.values)|plotting"
+DNM,15,Fail,09.28.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+DNM,16,Pass,06.29.19,
+DNM,17,Fail,07.22.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+DNM,18,Fail,05.04.19,STG2.0|print(bal)|bal=np.nan|printing
+DNM,19,Pass,08.02.19,
+DNM,20,Pass,06.02.19,
+DNM,21,Pass,07.20.19,
+DNM,22,Pass,06.21.19,
+DNM,23,Pass,06.26.19,
+DNM,24,Fail,04.18.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+DNM,25,Pass,08.21.19,
+DNM,26,Pass,05.25.19,
+DNM,27,Fail,07.26.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+DNM,28,Fail,08.31.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+DNM,29,Fail,04.26.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+DNM,30,Pass,09.11.19,
+DNM,31,Pass,06.22.19,
+DNM,32,Pass,09.09.19,
+DNM,33,Pass,06.04.19,
+DNM,34,Fail,06.07.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+DNM,35,Fail,07.03.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+DNM,36,Fail,05.25.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+DNM,37,Fail,05.02.19,"DEV2.0|data = pd.read_csv(usecase)|usecase=""file.csv""|reading"
+DNM,38,Fail,06.20.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+DNM,39,Pass,04.02.19,
+DNM,40,Fail,08.29.19,STG2.0| if i>5 |i=6 |decision control
+DNM,41,Fail,08.19.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+DNM,42,Fail,08.27.19,PROD2.0|for i in n:|i++|looping
+DNM,43,Fail,07.31.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+DNM,44,Pass,09.13.19,
+DNM,45,Fail,09.05.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+DNM,46,Fail,05.04.19,UAT2.0|if i>z|i=z|decision control
+DNM,47,Pass,06.24.19,
+DNM,48,Fail,04.01.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+DNM,49,Fail,08.14.19,"STG2.0|for i in Age|i={name,age}|looping"
+DNM,50,Pass,04.11.19,
+DNM,51,Fail,04.16.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+DNM,52,Pass,08.18.19,
+DNM,53,Fail,06.17.19,"DEV2.0| for x,d in tup:| tup=(data.Height, data.shape[0])|looping"
+DNM,54,Pass,06.28.19,
+DNM,55,Pass,05.24.19,
+DNM,56,Fail,09.18.19,STG2.0|print(bal)|bal=np.nan|printing
+DNM,57,Pass,04.18.19,
+DNM,58,Fail,09.24.19,"DEV2.0|plt.plot(x,y)|x,y =(trans.address,trans.values)|plotting"
+DNM,59,Pass,05.31.19,
+DNM,60,Pass,08.23.19,
+DNM,61,Pass,06.12.19,
+DNM,62,Pass,05.17.19,
+DNM,63,Pass,09.23.19,
+DNM,64,Pass,06.03.19,
+DNM,65,Fail,05.20.19,UAT2.0|if i>z|i=z|decision control
+DNM,66,Fail,05.24.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+DNM,67,Fail,09.20.19,STG2.0|print(bal)|bal=np.nan|printing
+DNM,68,Fail,05.19.19,DEV2.0| print(balance)|balance=np.nan| printing
+DNM,69,Fail,04.06.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+DNM,70,Fail,08.10.19,UAT2.0|if i>z|i=z|decision control
+DNM,71,Pass,08.22.19,
+DNM,72,Fail,08.25.19,"PROD2.0|plt.show(x,y)|x,y=(tr.address,tr.keys)|visualising"
+DNM,73,Pass,04.15.19,
+DNM,74,Fail,08.10.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+DNM,75,Pass,08.11.19,
+DNM,76,Fail,05.06.19,UAT2.0|if i<8|i=0|decision control
+DNM,77,Fail,08.17.19,UAT2.0|while i>6|i<5|validation
+DNM,78,Fail,05.25.19,PROD2.0|fig.shape()|fig=fg.plot(df)|vizualisation
+DNM,79,Fail,06.16.19,"STG2.0|for x in range(10,len(dir))|dir=tuple(tran)|looping"
+DNM,80,Fail,04.28.19,DEV2.0|print(df)|df=address.dataframe|retrive data
+DNM,81,Pass,07.09.19,
+DNM,82,Fail,07.29.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+DNM,83,Pass,07.18.19,
+DNM,84,Pass,05.03.19,
+DNM,85,Pass,09.30.19,
+DNM,86,Fail,04.06.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+DNM,87,Fail,06.12.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+DNM,88,Fail,05.04.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+DNM,89,Fail,05.14.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+DNM,90,Pass,07.29.19,
+DNM,91,Pass,07.05.19,
+DNM,92,Fail,07.25.19,UAT2.0|while i>6|i<5|validation
+DNM,93,Pass,05.08.19,
+DNM,94,Pass,08.19.19,
+DNM,95,Fail,09.28.19,UAT2.0|while i>6|i<5|validation
+DNM,96,Fail,07.18.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+DNM,97,Pass,06.17.19,
+DNM,98,Pass,06.05.19,
+DNM,99,Pass,05.01.19,
+DNM,100,Pass,04.28.19,
+DNM,101,Fail,04.04.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+DNM,102,Fail,09.15.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+DNM,103,Pass,05.30.19,
+DNM,104,Pass,06.02.19,
+DNM,105,Fail,05.07.19,UAT2.0|while i>6|i<5|validation
+DNM,106,Pass,04.25.19,
+DNM,107,Fail,04.24.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+DNM,108,Fail,04.18.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+DNM,109,Fail,08.30.19,"PROD2.0|client.post_telemetry(navsat_msg, compass_msg)|client=""solidity_tran.sol""|replacing"
+DNM,110,Pass,06.03.19,
+DNM,111,Pass,09.08.19,
+DNM,112,Pass,04.04.19,
+DNM,113,Fail,07.17.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+DNM,114,Pass,06.15.19,
+DNM,115,Fail,06.22.19,"STG2.0|for i in range(0,bal)|bal=tuple(tran)|looping"
+DNM,116,Pass,09.13.19,
+DNM,117,Pass,05.26.19,
+DNM,118,Fail,05.14.19,"UAT2.0|if name==""input"":|input=""John""|validation"
+DNM,119,Fail,08.13.19,"UAT2.0| a=pd.readcsv(filename)| filename=""testcase.csv""|reading"
+DNM,120,Pass,07.24.19,
+DNM,121,Fail,05.21.19,"STG2.0|for i in Age|i={name,age}|looping"
+DNM,122,Pass,04.13.19,
+DNM,123,Fail,06.23.19,UAT2.0|while i>6|i<5|validation
+DNM,124,Fail,06.26.19,"PROD2.0|filename.replace(""_"","""")|filename=""solidity_tranc.sol""|replacing"
+DNM,125,Fail,06.24.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+DNM,126,Pass,06.02.19,
+DNM,127,Fail,09.07.19,UAT2.0|if i>z|i=z|decision control
+DNM,128,Fail,06.03.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+DNM,129,Fail,08.25.19,"DEV2.0|for val in ""str1"": |str=tranc('title')|iteration"
+DNM,130,Fail,05.21.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+DNM,131,Pass,04.08.19,
+DNM,132,Fail,07.26.19,"PROD2.0|data.replace(data.Name, 'NA')|Name=nan|manipulating data"
+DNM,133,Fail,05.01.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+DNM,134,Fail,05.07.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+DNM,135,Pass,08.23.19,
+DNM,136,Pass,05.31.19,
+DNM,137,Fail,09.09.19,STG2.0|print(bal)|bal=np.nan|printing
+DNM,138,Pass,04.06.19,
+DNM,139,Pass,04.18.19,
+DNM,140,Fail,04.02.19,"PROD2.0| pd.DataFrame(data)| data={address:a,value:12000}| initiating data frame"
+DNM,141,Fail,06.17.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+DNM,142,Pass,09.27.19,
+DNM,143,Pass,06.23.19,
+DNM,144,Fail,04.12.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+DNM,145,Pass,09.01.19,
+DNM,146,Pass,07.24.19,
+DNM,147,Fail,09.24.19,UAT2.0|if i<8|i=0|decision control
+DNM,148,Fail,05.19.19,"UAT2.0|if key==""password"":|password=""admin""|authenticate"
+DNM,149,Fail,08.20.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+DNM,150,Pass,04.15.19,
+DNM,151,Pass,04.14.19,
+DNM,152,Fail,05.09.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+DNM,153,Fail,08.19.19,DEV2.0|fig.show()|fig=ax.plot(data)|displaying
+DNM,154,Pass,08.19.19,
+DNM,155,Pass,06.01.19,
+DNM,156,Fail,05.18.19,"STG2.0|for i in Age|i={name,age}|looping"
+DNM,157,Fail,04.01.19,PROD2.0|print(('python')*a)|a=name.value|retrieve data
+DNM,158,Pass,07.01.19,
+DNM,159,Pass,08.29.19,
+DNM,160,Fail,08.07.19,UAT2.0|if i>z|i=z|decision control
+DNM,161,Fail,04.16.19,"DEV2.0|print(data.[""Name""])|Name=123456|retrive data"
+DNM,162,Fail,09.08.19,"STG2.0|for i,j in range()|j=dict(age)|looping"
+DNM,163,Pass,07.16.19,
+DNM,164,Fail,07.03.19,"UAT2.0|for y,z in list:|list=(df.weight, df.shape[1])|looping"
+DNM,165,Fail,09.15.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
+DNM,166,Pass,05.01.19,
+DNM,167,Fail,07.03.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+DNM,168,Fail,07.29.19,"STG2.0|for i in range(0,len(book))|book=list(transactions)|looping"
+DNM,169,Fail,04.04.19,PROD2.0|Not compatible with framework version|framework version= tensorflow 1.2 |Updating
+DNM,170,Pass,06.20.19,
+DNM,171,Pass,05.03.19,
+DNM,172,Fail,09.21.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+DNM,173,Fail,08.25.19,"DEV2.0|df.read_csv(""bal.csv"")|bal=nan|Importing file"
+DNM,174,Pass,07.21.19,
+DNM,175,Fail,08.14.19,"STG2.0|for i in Age|i={name,age}|looping"
+DNM,176,Fail,05.01.19,"STG2.0|if value==""username"":|username=""user""|authenticate"
+DNM,177,Fail,09.19.19,UAT2.0|while i>6|i<5|validation
+DNM,178,Fail,05.11.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+DNM,179,Fail,05.23.19,UAT2.0|form.submit(name[0])|name=get(name.values)|retriving
+DNM,180,Fail,06.03.19,"DEV2.0|plt.plot(q,r)|q,r =(t.height,t.weight)|plotting"
+DNM,181,Fail,06.19.19,STG2.0|while var >! 0:  |var=balance|validation
+DNM,182,Pass,05.16.19,
+DNM,183,Fail,09.21.19,"DEV2.0|print(""sum is"",a+b)|a=b=nan|retrive data"
+DNM,184,Pass,07.08.19,
+DNM,185,Pass,04.18.19,
+DNM,186,Pass,07.13.19,
+DNM,187,Pass,08.09.19,
+DNM,188,Pass,07.01.19,
+DNM,189,Pass,09.27.19,
+DNM,190,Fail,07.06.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+DNM,191,Fail,05.26.19,"PROD2.0|uname=account.get(name)|account.name=""hjkma""|Coloring"
+DNM,192,Fail,08.18.19,"UAT2.0|add(balance,tranc):|balance=address.getvalue();|updating balance"
+DNM,193,Pass,09.05.19,
+DNM,194,Pass,09.12.19,
+DNM,195,Fail,04.04.19,"DEV2.0|df = df[df['Android'] != np.nan]|Android={version:v,value:2}|renaming"
